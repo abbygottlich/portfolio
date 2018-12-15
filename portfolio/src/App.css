@@ -1,0 +1,15 @@
+body {
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #E2987B;
+  font-family: 'Mrs. Eaves';
+  text-transform: uppercase;
+  color: #ffffff;
+}
