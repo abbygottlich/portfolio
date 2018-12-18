@@ -6,10 +6,50 @@ body {
 }
 
 .nav {
+  background-color: #E2987B;
+  height: 40px;
+}
+
+.nav-component {
   display: flex;
   justify-content: space-around;
-  background-color: #E2987B;
-  font-family: 'Mrs. Eaves';
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Raleway';
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 11px;
+}
+
+.welcome-text {
+  margin-top: 190px;
+  margin-right: 400px;
+  text-align: center;
+  color: #E2987B;
+  font-size: 24px;
+  font-family: 'Raleway';
+}
+
+.title {
+  font-size: 24px;
+  color: #E2987B;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button {
+  background-color: #E2987B;
+  padding: 5px;
+  width: 96px;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about {
+  display: inline-block;
+  margin-left: 250px;
+  margin-top: 200px;
 }

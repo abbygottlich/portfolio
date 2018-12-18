@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div>
+    <div class="nav-component">
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="/contact">Contact</a>

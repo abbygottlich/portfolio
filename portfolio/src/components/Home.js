@@ -2,8 +2,14 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to my portfolio.</h1>
+    <div class="welcome-text">
+      <h1>
+        Welcome
+        <br />
+        to my online
+        <br />
+        portfolio.
+      </h1>
     </div>
   );
 };
