@@ -17,7 +17,7 @@ class About extends Component {
   render() {
     // created this variable to show or hide depending on the state
     const moreInfo = (
-      <p>
+      <p class="more-info">
         I am strong Visual Designer aspiring to become a Designer-Developer
         <br />
         Hybrid. I am a graduate of General Assembly’s UX Design course and
@@ -38,7 +38,7 @@ class About extends Component {
     // if user has clicked button and showMoreInfo is true, display moreInfo
     return (
       <div class="about">
-        <p class="title">
+        <p class="about-paragraph">
           Hi, my name is Abby.
           <br />I am a front-end web developer
           <br />

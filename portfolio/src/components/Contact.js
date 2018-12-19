@@ -48,32 +48,34 @@ class Contact extends Component {
 
   render() {
     // variables that will show or hide depending on user event
-    const phoneNumber = <p>34573952379</p>;
-    const email = <p>fkjahflkajh</p>;
-    const snailMail = <p>zdjhkfjh</p>;
+    const phoneNumber = <p class="info">972.948.0392</p>;
+    const email = <p class="info">abby.gottlich@gmail.com</p>;
+    const snailMail = (
+      <p class="info">5709 Knoll Pines Pass, Austin, TX 78724</p>
+    );
     return (
       // onMouseEnter, display the info; onMouseLeave, hide the info
       <div>
-        <p class="title">Contact</p>
+        <p class="contact-title">Let's Chat!</p>
         <p
           onMouseEnter={this.handlePhoneMouseEnter}
           onMouseLeave={this.handlePhoneMouseLeave}
         >
-          Phone Number
+          <p class="info-title">Phone Number</p>
         </p>
         {this.state.showPhoneNumber && phoneNumber}
         <p
           onMouseEnter={this.handleEmailMouseEnter}
           onMouseLeave={this.handleEmailMouseLeave}
         >
-          Email
+          <p class="info-title">Email</p>
         </p>
         {this.state.showEmail && email}
         <p
           onMouseEnter={this.handleSnailMailMouseEnter}
           onMouseLeave={this.handleSnailMailMouseLeave}
         >
-          Snail Mail
+          <p class="info-title">Snail Mail</p>
         </p>
         {this.state.showSnailMail && snailMail}
       </div>
