@@ -1,3 +1,4 @@
+/* background styling */
 body {
   background-image: url(./images/background.jpg);
   background-size: cover;
@@ -5,6 +6,7 @@ body {
   overflow: hidden;
 }
 
+/* nav bar styling */
 .nav {
   background-color: #E2987B;
   height: 40px;
@@ -15,6 +17,7 @@ body {
   justify-content: space-around;
 }
 
+/* nav links styling */
 a {
   text-decoration: none;
   font-family: 'Raleway';
@@ -29,6 +32,7 @@ a:hover {
   font-weight: bold;
 }
 
+/* text on home page styling */
 .welcome-text {
   margin-top: 190px;
   margin-right: 400px;
