@@ -54,7 +54,7 @@ class Contact extends Component {
       <p class="info">5709 Knoll Pines Pass, Austin, TX 78724</p>
     );
     return (
-      // onMouseEnter, display the info; onMouseLeave, hide the info
+      // onMouseEnter, display the info; onMouseLeave, hide info
       <div>
         <p class="contact-title">Let's Chat!</p>
         <p

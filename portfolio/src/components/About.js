@@ -35,7 +35,7 @@ class About extends Component {
 
     // when button is clicked, we attach the click function to the onClick event
     // showing/hiding button text
-    // if user has clicked button and showMoreInfo is true, display moreInfo
+    // if user has clicked button and showMoreInfo is true, show moreInfo
     return (
       <div class="about">
         <p class="about-paragraph">
