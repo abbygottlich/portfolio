@@ -2,7 +2,6 @@ import React from "react";
 
 const Home = () => {
   return (
-    // welcome paragraph
     <div class="welcome-text">
       <h1>
         Welcome
@@ -16,5 +15,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// comment added for PR purposes

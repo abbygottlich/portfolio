@@ -84,5 +84,3 @@ class Contact extends Component {
 }
 
 export default Contact;
-
-// comment added for PR purposes

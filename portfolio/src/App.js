@@ -9,7 +9,6 @@ import Nav from "./components/Nav";
 class App extends Component {
   render() {
     return (
-      // used BrowerRouter to route to all of my components
       <BrowserRouter>
         <div>
           <div class="nav">
@@ -25,5 +24,3 @@ class App extends Component {
 }
 
 export default App;
-
-// comment added for PR purposes

@@ -54,5 +54,3 @@ class About extends Component {
 }
 
 export default About;
-
-// comment added for PR purposes

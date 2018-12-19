@@ -1,4 +1,3 @@
-/* background styling */
 body {
   background-image: url(./images/background.jpg);
   background-size: cover;
@@ -6,7 +5,6 @@ body {
   overflow: hidden;
 }
 
-/* nav bar styling */
 .nav {
   background-color: #E2987B;
   height: 40px;
@@ -17,7 +15,6 @@ body {
   justify-content: space-around;
 }
 
-/* nav links styling */
 a {
   text-decoration: none;
   font-family: 'Raleway';
@@ -32,7 +29,6 @@ a:hover {
   font-weight: bold;
 }
 
-/* text on home page styling */
 .welcome-text {
   margin-top: 190px;
   margin-right: 400px;
@@ -58,7 +54,6 @@ a:hover {
   text-align: center;
 }
 
-/* phone number, email, and snail mail title styling */
 .info-title {
   text-decoration: underline;
   margin-top: 60px;
@@ -100,5 +95,3 @@ a:hover {
   color: #525055;
   font-family: "Raleway";
 }
-
-/* comment added for PR purposes */
